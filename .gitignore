@@ -1,0 +1,25 @@
+# Ignore virtual environments
+myvenv/
+venv/
+.env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore large ML models
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Ignore datasets
+*.csv
+*.zip
+*.tar
+*.gz
+
+# Ignore IDE settings
+.vscode/
+.idea/
+
